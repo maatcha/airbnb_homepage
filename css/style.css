@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Special+Elite");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+body {
+	font-family: 'Indie Flower', cursive, sans-serif;
+	margin: 0px;
+	color: black;
+}
+
+h1, h2, h3 {
+	font-family: 'Special Elite', cursive, sans-serif;
+}
+
+.container {
+	/*padding: 0px 140px;*/
+	max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.container>p {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2;
+	margin: 50px;
+}
